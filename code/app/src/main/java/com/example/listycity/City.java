@@ -9,6 +9,14 @@ public class City {
         this.province = province;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
+    }
+
     public String getName() {
         return name;
     }
@@ -16,6 +24,4 @@ public class City {
     public String getProvince() {
         return province;
     }
-
-    // May need Setters for the participation exercise
 }
